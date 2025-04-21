@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="RK.png" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="fade-in fade-in-delay-1" style="font-size: 30px">Hello</p>
+        <h1 class="fade-in fade-in-delay-2">
+          I'm <span class="highlight">Ravitej Kakhandaki</span>
+        </h1>
+        <h2 class="fade-in fade-in-delay-6" id="changing-text">
+          I'm a <span class="highlight" id="typed-text">Software Engineer</span>
+        </h2>
+
+        <p class="desc fade-in fade-in-delay-7">
+          Computer Science graduate with experience in front-end development.
+          Skilled in building responsive, real-time applications with a focus on
+          user-centric design.
+        </p>
+
+        <div class="social-icons fade-in fade-in-delay-8">
+          <a href="https://www.linkedin.com/in/ravitej-kakhandaki/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Ravitej-kakhandaki"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/ravitejkakhandaki?igsh=MXZnNXVqenZ2YWljdw%3D%3D&utm_source=qr"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+
+        <a href="Ravi_Resume.pdf" class="btn-cv fade-in fade-in-delay-9"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="profile-circle fade-in fade-in-delay-3">
+        <div class="innerWhitecircle fade-in fade-in-delay-4">
+          <div class="circle-inner fade-in fade-in-delay-5">
+            <img src="PortfolioPhoto.png" alt="" id="image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills-section" id="skills">
+      <h2 style="font-size: 50px; font-weight: bolder" class="Heading">
+        SKILLS
+      </h2>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+        <button class="filter-btn" data-filter="tools">Tools</button>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill" data-category="frontend" data-skill="95%">
+          <span><i class="fab fa-html5"></i> HTML</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="skill" data-category="frontend" data-skill="90%">
+          <span><i class="fab fa-css3-alt"></i> CSS</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="skill" data-category="frontend" data-skill="85%">
+          <span><i class="fab fa-js"></i> JavaScript</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="skill" data-category="backend" data-skill="80%">
+          <span><i class="fab fa-java"></i> Java</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="skill" data-category="backend" data-skill="75%">
+          <span><i class="fab fa-python"></i> Python</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="skill" data-category="backend" data-skill="70%">
+          <span><i class="fas fa-code"></i> C</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="skill" data-category="backend" data-skill="85%">
+          <span><i class="fas fa-database"></i> MySQL</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="skill" data-category="frontend" data-skill="80%">
+          <span><i class="fab fa-react"></i> ReactJS</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="skill" data-category="backend" data-skill="75%">
+          <span><i class="fas fa-fire"></i> Firebase</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="skill" data-category="frontend" data-skill="85%">
+          <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="skill" data-category="tools" data-skill="90%">
+          <span><i class="fab fa-git-alt"></i> Git</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <!-- Added VS Code skill here -->
+        <div class="skill" data-category="tools" data-skill="95%">
+          <span><i class="fab fa-microsoft"></i> VS Code</span>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section -->
+    <section class="education-section">
+      <h2 class="section-title Heading">EDUCATION</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="year">2017-2018</span>
+            <h2>Class X</h2>
+            <p>Royal Palace School, Jamkhandi,Bagalkot</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="year">2019-2020</span>
+            <h2>Class XII</h2>
+            <p>Padmavati Science PU College, Hosur-Rabkavi</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="year">2021-Present</span>
+            <h2>Bachelor's Degree in Computer Science & Engineering</h2>
+            <p>K.S. Institute of Technology,Bengaluru</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Work Experience -->
+    <section id="work">
+      <h2 class="work Heading">INTERNSHIPS</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-front">NIMHANS</div>
+          <div class="card-back">
+            Created multiple frontend pages using HTML, CSS & JS
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-front">XCEL Corp</div>
+          <div class="card-back">
+            Worked with Bootstrap & React for responsive web design
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-front">Take It Smart</div>
+          <div class="card-back">
+            Built IoT system using ESP32 + Sensors + C
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects  -->
+
+    <section id="projects">
+      <h2
+        style="text-align: center; font-size: 50px; margin-bottom: 60px"
+        class="Heading"
+      >
+        PROJECTS
+      </h2>
+      <div class="project-container">
+        <div class="project-flip-card">
+          <div class="project-flip-inner">
+            <div class="project-front">Underpass Monitoring System</div>
+            <div class="project-back">
+              Designed a real-time monitoring and control system for underpasses
+              to prevent flooding and accidents. Utilized ESP32, IR sensors, C,
+              Python, Firebase.
+            </div>
+          </div>
+        </div>
+
+        <div class="project-flip-card">
+          <div class="project-flip-inner">
+            <div class="project-front">Medical Device Reporting Portal</div>
+            <div class="project-back">
+              A web portal for reporting adverse events related to medical
+              devices. Developed critical static pages ensuring seamless
+              interaction.
+            </div>
+          </div>
+        </div>
+
+        <div class="project-flip-card">
+          <div class="project-flip-inner">
+            <div class="project-front">Agronomix</div>
+            <div class="project-back">
+              Developed a MySQL-based database management system with a
+              user-friendly web interface. Enabled farmers to visualize and
+              interact with real-time agricultural data.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- certification -->
+
+    <section id="certificates" class="hidden">
+      <h2 style="text-align: center; font-size: 50px" class="Heading">
+        CERTIFICATES
+      </h2>
+
+      <div class="certificates-container">
+        <button class="scroll-arrow left" style="font-size: 100px">&lt;</button>
+
+        <div class="certificates-grid">
+          <div class="certificate-card" data-full="Certificates\AI.png">
+            <img src="Certificates\AI.png" alt="AI For India 2.0" />
+            <div class="certificate-info">
+              <h3>AI For India 2.0</h3>
+              <p>GUVI, Skill India Digital 2023</p>
+            </div>
+          </div>
+          <div class="certificate-card" data-full="Certificates\Naukari.PNG">
+            <img
+              src="Certificates\Naukari.PNG"
+              alt="Skill Contest Certificate"
+            />
+            <div class="certificate-info">
+              <h3>Skill Contest Certificate</h3>
+              <p>Naukari Campus Young Turks 2024</p>
+            </div>
+          </div>
+          <div class="certificate-card" data-full="Certificates\IOT.png">
+            <img src="Certificates\IOT.png" alt="Internet of Things" />
+            <div class="certificate-info">
+              <h3>Internet of Things</h3>
+              <p>The Digital Adda 2023</p>
+            </div>
+          </div>
+          <div class="certificate-card" data-full="Certificates\KSIT.jpeg">
+            <img src="Certificates/KSIT.jpeg" alt="Aptitude & Soft Skills" />
+            <div class="certificate-info">
+              <h3>Aptitude & Soft Skills</h3>
+              <p>K S Institute of Technology 2023</p>
+            </div>
+          </div>
+          <div
+            class="certificate-card"
+            data-full="Certificates/DataScience.JPG"
+          >
+            <img
+              src="Certificates/DataScience.JPG"
+              alt="Data Science Hackathon"
+            />
+            <div class="certificate-info">
+              <h3>Data Science Hackathon</h3>
+              <p>IIT Kharagpur 2025</p>
+            </div>
+          </div>
+          <div class="certificate-card" data-full="Certificates\FullStack.jpeg">
+            <img
+              src="Certificates/FullStack.jpeg"
+              alt="Front-End Development"
+            />
+            <div class="certificate-info">
+              <h3>Front-End Development</h3>
+              <p>XCEL Corp 2024</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="scroll-arrow right" style="font-size: 100px">
+          &gt;
+        </button>
+      </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div id="certificateModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" src="" alt="Certificate" />
+      <div id="caption"></div>
+    </div>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="hidden">
+      <h2 style="text-align: center; font-size: 50px" class="Heading">
+        ACHIVEMENTS
+      </h2>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <h3>Participant in ”Young Turks” Skill Contest by Naukri Campus</h3>
+        </div>
+        <div class="achievement-card">
+          <h3>
+            Participant in National-Level Data Science Hackathon- IIT Kharagpur
+          </h3>
+        </div>
+
+        <!-- Add more achievement cards as needed -->
+      </div>
+    </section>
+
+    <!-- languages -->
+    <!-- Languages Known -->
+    <section id="languages" class="hidden" style="margin-top: 100px">
+      <h2 style="text-align: center; font-size: 50px" class="Heading">
+        LANGUAGES KNOWN
+      </h2>
+      <div class="language-charts">
+        <div class="language-circle">
+          <div class="circle english">
+            <span>90%</span>
+          </div>
+          <p style="font-size: 25px; font-weight: 500">English (Fluent)</p>
+        </div>
+        <div class="language-circle">
+          <div class="circle kannada">
+            <span>100%</span>
+          </div>
+          <p style="font-size: 25px; font-weight: 500">Kannada (Native)</p>
+        </div>
+        <div class="language-circle">
+          <div class="circle hindi">
+            <span>60%</span>
+          </div>
+          <p style="font-size: 25px; font-weight: 500">Hindi (Intermediate)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- hobbies -->
+    <section id="hobbies" class="hidden" style="margin-top: 100px">
+      <h2 class="Heading">HOBBIES AND INTERESTS</h2>
+      <div class="hobbies-grid">
+        <div class="hobby-card travelling">
+          <img src="travelling.jpg" alt="" class="Image" />
+
+          <p style="text-align: center">Travelling</p>
+        </div>
+        <div class="hobby-card cricket">
+          <img src="cricket.jpg" alt="" class="Image" />
+
+          <p style="text-align: center">Cricket</p>
+        </div>
+        <div class="hobby-card swimming">
+          <img src="swimming.jpg" alt="" class="Image" />
+
+          <p style="text-align: center">Swimming</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact me  -->
+    <section class="contact">
+      <section class="contact-section">
+        <div class="contact-info">
+          <h2>Getting in touch is easy!</h2>
+          <p>Bagalkot, Karnataka<br />587314, India</p>
+          <p>+91 8073809901</p>
+          <p>kakhandakiravitej@gmail.com</p>
+          <div class="social-icons">
+            <a href="https://x.com/ravitejk17?s=21" style="color: #0a66c2"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/ravitejkakhandaki?igsh=MXZnNXVqenZ2YWljdw%3D%3D&utm_source=qr"
+              style="color: #e4405f"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ravitej-kakhandaki/"
+              style="color: #0a66c2"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h1>SEND ME A MESSAGE</h1>
+          <form id="contactForm">
+            <input
+              type="text"
+              id="user_name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              id="user_email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              id="message"
+              placeholder="Write us about any project. We'd love to work with you!"
+              required
+            ></textarea>
+            <button type="submit" id="submit">SEND MESSAGE</button>
+          </form>
+        </div>
+      </section>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
